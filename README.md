@@ -24,7 +24,9 @@ Quando se trata de velocidade e confiabilidade, o IPFS pode ter um desempenho me
 ## Instalando IPFS
 Existem 2 opções de nós para uma instalação comum de IPFS.
 
- - **IPFS Desktop** - Para hospedar e compartilhar arquivos diretamente de um computador (laptop ou PC de mesa). Um aplicativo complementar IPFS pode ser instalado para permitir o acesso a um nó local usando um navegador da web. Este é o tipo de instalação para compartilhamento de arquivos do tipo peer.
+ - [IPFS Desktop](https://github.com/ipfs-shipyard/ipfs-desktop) - Para hospedar e compartilhar arquivos diretamente de um computador (laptop ou PC de mesa). 
+ ![](figuras/ipfs-desktop.png)
+ Um aplicativo complementar IPFS pode ser instalado para permitir o acesso a um nó local usando um navegador da web. Este é o tipo de instalação para compartilhamento de arquivos do tipo peer.
  
  - **Cluster IPFS** - Para hospedar e compartilhar arquivos em escala, o cluster permite orquestrar e coordenar conjuntos de pinos em um enxame de nós IPFS. Isso permite que um sistema de armazenamento de arquivos em grande escala seja construído por meio de nós distribuídos.
  
