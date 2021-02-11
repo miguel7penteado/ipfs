@@ -2,7 +2,7 @@
 # Usando IPFS para sistemas de armazenamento de arquivos distribuídos
 
 *IPFS (InterPlanetary File System)* é uma solução de armazenamento descentralizada para conteúdo baseado em blockchain. O IPFS usa um modelo de rede P2P (Peer-to-Peer) para compartilhamento de arquivos que é descentralizado e distribuído em muitos computadores ou nós. Os arquivos são divididos em diferentes partes e armazenados em uma rede de nós, que rastreia o arquivo por hashes. Quando as peças são montadas juntas, com base em seu *valor de hash*, ele recria o arquivo original.
-[](figuras/arquivos.png)
+![](figuras/arquivos.png)
 
 ## Armazenamento de arquivos descentralizado
 
