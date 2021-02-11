@@ -127,6 +127,11 @@ O IPFS possui um sistema de controle de versão. Este é um recurso da estrutura
 
 ![](figuras/consistencia.png)
 
+## Mecanismo de Busca: [https://ipfs-search.com/#/search](https://ipfs-search.com/#/search), o google do IPFS
+
+O site [https://ipfs-search.com/#/search](https://ipfs-search.com/#/search) é no momento o melhor mecanismo de buscas, segundo relato dos usuários.
+![](figuras/ipf-search.png)
+
 ## SINOPSE
 
 O IPFS é mais ideal para armazenamento permanente de dados, como música digital, obras de arte e credenciamentos (por exemplo, certificados, diplomas, prêmios, doações). Esses são tipos de dados que não precisam ser alterados e colocá-los em um sistema de armazenamento baseado em blockchain faz mais sentido. Ele fornece ao criador ou artista uma prova digital que não pode ser alterada por ninguém e que pode ser demonstrada por meio de um sistema baseado em hash com pares de valores-chave exclusivos para um único item.
