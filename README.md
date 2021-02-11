@@ -31,6 +31,9 @@ Existem 2 opções de nós para uma instalação comum de IPFS.
  - [Cluster IPFS](https://cluster.ipfs.io/download/) - Para hospedar e compartilhar arquivos em escala, o cluster permite orquestrar e coordenar conjuntos de pinos em um enxame de nós IPFS. Isso permite que um sistema de armazenamento de arquivos em grande escala seja construído por meio de nós distribuídos.
  ![](figuras/ipfs-cluster.png)
  
+  - [Linha de comando IPFS](https://docs.ipfs.io/how-to/command-line-quick-start/#prerequisites) - São os comandos de manipulação e publicação de arquivos nos nós, compatíveis com os shells do Linux, DOS e Mac.
+  ![](figuras/ipfs-command.png)
+ 
  Depois de instalar a área de trabalho IPFS básica, a configuração do nó começa com a inicialização do repositório. A seguir estão os comandos que você digita em um terminal shell do Windows Powershell ou Mac / Linux.
  
 ```bash
