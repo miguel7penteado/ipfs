@@ -28,7 +28,8 @@ Existem 2 opções de nós para uma instalação comum de IPFS.
  ![](figuras/ipfs-desktop.png)
  Um aplicativo complementar IPFS pode ser instalado para permitir o acesso a um nó local usando um navegador da web. Este é o tipo de instalação para compartilhamento de arquivos do tipo peer.
  
- - **Cluster IPFS** - Para hospedar e compartilhar arquivos em escala, o cluster permite orquestrar e coordenar conjuntos de pinos em um enxame de nós IPFS. Isso permite que um sistema de armazenamento de arquivos em grande escala seja construído por meio de nós distribuídos.
+ - [Cluster IPFS](https://cluster.ipfs.io/download/) - Para hospedar e compartilhar arquivos em escala, o cluster permite orquestrar e coordenar conjuntos de pinos em um enxame de nós IPFS. Isso permite que um sistema de armazenamento de arquivos em grande escala seja construído por meio de nós distribuídos.
+ ![](figuras/ipfs-custer.png)
  
  Depois de instalar a área de trabalho IPFS básica, a configuração do nó começa com a inicialização do repositório. A seguir estão os comandos que você digita em um terminal shell do Windows Powershell ou Mac / Linux.
  
