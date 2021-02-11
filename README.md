@@ -1,12 +1,12 @@
 
 # Usando IPFS para sistemas de armazenamento de arquivos distribuídos
 
-*IPFS (InterPlanetary File System)* é uma solução de armazenamento descentralizada para conteúdo baseado em blockchain. O IPFS usa um modelo de rede P2P (Peer-to-Peer) para compartilhamento de arquivos que é descentralizado e distribuído em muitos computadores ou nós. Os arquivos são divididos em diferentes partes e armazenados em uma rede de nós, que rastreia o arquivo por hashes. Quando as peças são montadas juntas, com base em seu *valor de hash*, ele recria o arquivo original.
+**IPFS (InterPlanetary File System)** é uma solução de armazenamento descentralizada para conteúdo baseado em blockchain. O IPFS usa um modelo de rede P2P (Peer-to-Peer) para compartilhamento de arquivos que é descentralizado e distribuído em muitos computadores ou nós. Os arquivos são divididos em diferentes partes e armazenados em uma rede de nós, que rastreia o arquivo por hashes. Quando as peças são montadas juntas, com base em seu *valor de hash*, ele recria o arquivo original.
 ![](figuras/arquivos.png)
 
 ## Armazenamento de arquivos descentralizado
 
-O uso de *tabelas de hash distribuídas ( Distributed Hash Tables - DHT)* para armazenamento e recuperação de sistema de arquivos é a inovação central do IPFS. É semelhante ao protocolo BitTorrent, mas diferente na forma como apontam para o arquivo para compartilhamento. Isso armazena arquivos em um blockchain como pares de valores de chave. Os dados são divididos em blocos de 256 KB e espalhados por uma rede de nós ou computadores. É coordenado de forma eficiente para permitir acesso e pesquisa eficientes entre os nós. O BitTorrent não usa blockchain, mas depende de torrents para apontar para arquivos. Você pode ter torrents diferentes apontando para o mesmo arquivo, mas no IPFS você só precisa de um ID de hash que aponta para um arquivo.
+O uso de **tabelas de hash distribuídas ( Distributed Hash Tables - DHT)** para armazenamento e recuperação de sistema de arquivos é a inovação central do IPFS. É semelhante ao protocolo BitTorrent, mas diferente na forma como apontam para o arquivo para compartilhamento. Isso armazena arquivos em um blockchain como pares de valores de chave. Os dados são divididos em blocos de 256 KB e espalhados por uma rede de nós ou computadores. É coordenado de forma eficiente para permitir acesso e pesquisa eficientes entre os nós. O BitTorrent não usa blockchain, mas depende de torrents para apontar para arquivos. Você pode ter torrents diferentes apontando para o mesmo arquivo, mas no IPFS você só precisa de um ID de hash que aponta para um arquivo.
 Os arquivos não são postados no IPFS da mesma forma que postar um arquivo na nuvem. Todos os dados no IPFS são endereçados por seu ID de hash. Quando alguém solicita esses dados, eles estão solicitando esses dados diretamente por seu ID de hash e não pelo próprio arquivo. O IPFS, portanto, fornece uma abstração da localização real do arquivo, de forma que a localização física real não importa para o aplicativo. Essa abstração remove a complexidade para desenvolvedores de aplicativos.
 ![](figuras/armazenamento_ipfs.png)
 Os nós hospedam o arquivo na rede. Eles são incentivados a fazer isso por um ativo digital como o Filecoin em um blockchain IPFS. Os nós são incentivados a fornecer espaço de armazenamento em seu computador ou servidor para hospedar arquivos. Esses arquivos recebem um hash ID que pode ser distribuído pela rede. Outros nós também podem hospedar o mesmo arquivo, permitindo que muitas cópias dele sejam feitas. Os usuários que desejam o arquivo irão acessá-lo com base no hash do nó mais próximo de sua localização.
@@ -24,9 +24,9 @@ Quando se trata de velocidade e confiabilidade, o IPFS pode ter um desempenho me
 ## Instalando IPFS
 Existem 2 opções de nós para uma instalação comum de IPFS.
 
- - IPFS Desktop - Hospede e compartilhe arquivos diretamente de um computador (laptop ou PC de mesa). Um aplicativo complementar IPFS pode ser instalado para permitir o acesso a um nó local usando um navegador da web. Este é o tipo de instalação para compartilhamento de arquivos do tipo peer.
+ - **IPFS Desktop** - Para hospedar e compartilhar arquivos diretamente de um computador (laptop ou PC de mesa). Um aplicativo complementar IPFS pode ser instalado para permitir o acesso a um nó local usando um navegador da web. Este é o tipo de instalação para compartilhamento de arquivos do tipo peer.
  
- - Cluster IPFS - Para hospedar e compartilhar arquivos em escala, o cluster permite orquestrar e coordenar conjuntos de pinos em um enxame de nós IPFS. Isso permite que um sistema de armazenamento de arquivos em grande escala seja construído por meio de nós distribuídos.
+ - **Cluster IPFS** - Para hospedar e compartilhar arquivos em escala, o cluster permite orquestrar e coordenar conjuntos de pinos em um enxame de nós IPFS. Isso permite que um sistema de armazenamento de arquivos em grande escala seja construído por meio de nós distribuídos.
  
  Depois de instalar a área de trabalho IPFS básica, a configuração do nó começa com a inicialização do repositório. A seguir estão os comandos que você digita em um terminal shell do Windows Powershell ou Mac / Linux.
  
