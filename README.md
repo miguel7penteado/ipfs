@@ -22,7 +22,7 @@ O armazenamento de endereçamento baseado em conteúdo pertence ao conteúdo par
 Quando se trata de velocidade e confiabilidade, o IPFS pode ter um desempenho melhor do que o HTTP. Em vez de depender de um local de servidor para obter um arquivo, um sistema de armazenamento de conteúdo endereçado pode fornecer o arquivo de vários servidores (por exemplo, um par ou nó na rede IPFS) que estão mais próximos do usuário. Em outras palavras, um usuário pode simplesmente pesquisar um arquivo sem que um mecanismo de pesquisa precise fazer referência ao local, ou seja, o nome ou endereço do servidor. Em vez disso, eles farão referência a ele pelo hash do arquivo, e ele estará disponível nos nós disponíveis mais próximos na rede.
 
 ## Instalando IPFS
-Existem 2 opções de nós para uma instalação comum de IPFS.
+Existem 2 opções de nós para uma instalação comum de IPFS e 1 perfil de *linha de comando*, todos rodando através de um servidor **go**:
 
  - [IPFS Desktop](https://github.com/ipfs-shipyard/ipfs-desktop) - Para hospedar e compartilhar arquivos diretamente de um computador (laptop ou PC de mesa). 
  ![](figuras/ipfs-desktop.png)
