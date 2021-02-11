@@ -90,10 +90,10 @@ O resultado retornará o hash exclusivo:
 *QmQhadgstSRUv7aYnN25kwRBWtxP1gB9Kowdeim32uf8Td*
 
 Agora posso inserir o link da URL:
-[https://ipfs.infura.io/ipfs/QmQhadgstSRUv7aYnN25kwRBWtxP1gB9Kowdeim32uf8Td](https://ipfs.infura.io/ipfs/QmQhadgstSRUv7aYnN25kwRBWtxP1gB9Kowdeim32uf8Td)
+![https://ipfs.infura.io/ipfs/QmQhadgstSRUv7aYnN25kwRBWtxP1gB9Kowdeim32uf8Td](https://ipfs.infura.io/ipfs/QmQhadgstSRUv7aYnN25kwRBWtxP1gB9Kowdeim32uf8Td)
 
 Isso mostrará os dados que acabei de inserir no gateway Infura. Os dados não são persistentes e serão removidos após alguns dias ou semanas de inatividade. Para armazenamento de dados persistente, um servidor dedicado é necessário no local ou em uma nuvem.
-[](figuras/javascript.png)
+![](figuras/javascript.png)
 
 ## Os prós do IPFS
 
@@ -121,7 +121,7 @@ Como o IPFS é descentralizado, todos os nós de hospedagem terão uma cópia do
 Isso pode ser um desafio ao atualizar os dados KYC, que incluem passaportes e carteiras de motorista. Quando esses documentos expiram, uma nova versão deve ser carregada para substituir a antiga. O IPFS fornece controle de versão, mas se torna complicado quando é colocado em uma rede pública, porque muitas versões podem existir em nós diferentes. A versão antiga não é atualizada automaticamente. O antigo deve ser arquivado ou destruído. O IPFS não pode arquivar o arquivo da mesma forma que no AWS ou Azure.
 O IPFS possui um sistema de controle de versão. Este é um recurso da estrutura Merkle DAG do IPFS que permite construir um sistema de controle de versão distribuído (VCS). O exemplo mais popular disso é o Github, que permite aos desenvolvedores colaborar facilmente em projetos simultaneamente. Os arquivos no Github são armazenados e com controle de versão usando um Merkle DAG. Ele permite aos usuários duplicar e editar de forma independente várias versões de um arquivo, armazenar essas versões e, posteriormente, mesclar as edições com o arquivo original. No entanto, isso é praticamente em teoria de acordo com muitos desenvolvedores, e ainda não é uma tecnologia totalmente testada e comprovada que funcione (até o momento desta escrita). Se formos implementá-lo, isso exigiria mais tempo e custos de desenvolvimento, o que pode ser bom a longo prazo.
 
-[](figuras/consistencia.png)
+![](figuras/consistencia.png)
 
 ## SINOPSE
 
