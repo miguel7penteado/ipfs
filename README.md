@@ -130,7 +130,7 @@ O IPFS possui um sistema de controle de versão. Este é um recurso da estrutura
 ## Mecanismo de Busca: [https://ipfs-search.com/#/search](https://ipfs-search.com/#/search), o google do IPFS
 
 O site [https://ipfs-search.com/#/search](https://ipfs-search.com/#/search) é no momento o melhor mecanismo de buscas, segundo relato dos usuários.
-![](figuras/ipf-search.png)
+![](figuras/ipfs-search.png)
 
 ## SINOPSE
 
